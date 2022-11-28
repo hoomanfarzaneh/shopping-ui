@@ -1,0 +1,15 @@
+.swiper{
+    height: 100vh;
+    object-fit: cover;
+
+}
+
+@media only screen and (max-width: 900px) {
+    .swiper{
+        height: 70vh;
+    }
+    .swiper-wrapper img{
+        object-fit: cover;
+    }
+
+    }

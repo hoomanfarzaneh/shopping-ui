@@ -1,0 +1,78 @@
+  
+.footer{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 50px;
+    padding:0px 50px;
+    background-image: url(../../../public/img/wave\ \(2\).svg);
+    background-size: cover;
+}
+        
+.footerContainer{
+    direction: rtl;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35vh;
+    color: var(--font-color);
+}
+            
+.footerTxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 12px;
+    gap: 10px;
+    padding-top: 20px;
+}
+               
+.title{
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}                    
+.title h4{
+    font-size: 18px;
+}
+                  
+.footBody{
+    margin-right: 20px;
+}
+.titleIcon{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+}            
+
+.icon i{
+    font-size: 20px;
+    margin-right: 10px;
+}  
+hr{
+    margin-top: 10px;
+}          
+.copyright{
+    text-align: center;
+    margin-bottom: 10px;
+}   
+.copyright h6{
+    font-size: 12px;           
+}
+.copyright p{
+    font-size: 10px;
+               
+}
+@media only screen and (max-width: 900px) {
+   
+    .footerContainer{
+        gap: 80px;
+    }
+ }
+ @media only screen and (max-width: 600px) {
+    .footerContainer{
+        gap: 50px;
+        margin-top: 20vh;
+    }
+ }
